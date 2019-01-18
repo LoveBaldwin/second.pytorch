@@ -40,6 +40,7 @@ source activate pointpillars
 conda install shapely pybind11 protobuf scikit-image numba pillow
 conda install pytorch torchvision -c pytorch
 conda install google-sparsehash -c bioconda
+conda install -c https://conda.binstar.org/menpo opencv
 ```
 
 Then use pip for the packages missing from Anaconda.
